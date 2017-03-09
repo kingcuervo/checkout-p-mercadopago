@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    /* padding: 30px; */
+    font-family: Quicksand;
+    font-weight: normal;
+}
+
+h1 {
+    font-weight: normal;
+    text-align: center;
+    background: #c7ab58;
+    color: white;
+    padding: 20px 0;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    float: left;
+    margin: 10px 10px 0 10px;
+}
+
+input[type="text"], input[type="email"],select {
+    width: 300px;
+    font-family: inherit;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid;
+    height: 40px;
+    display: inherit;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    width: 300px;
+    font-family: inherit;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    height: 40px;
+    display: inherit;
+    margin: 10px 0;
+    font-size: 20px;
+    background: #c7ab58;
+    color: white;
+    text-transform: uppercase;
+}
